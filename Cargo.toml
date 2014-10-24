@@ -1,0 +1,10 @@
+[package]
+name = "pizzacrust"
+version = "0.0.1"
+authors = ["Simon Peter Nicholls <simon@mintsource.org>"]
+
+[dependencies.nickel]
+git = "https://github.com/nickel-org/nickel.rs.git"
+
+[dependencies.postgres]
+git = "https://github.com/sfackler/rust-postgres.git"
